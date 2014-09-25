@@ -2,5 +2,7 @@ package gquickcrud
 
 class CqCreateController {
 
-    def index() { }
+  def create() { 
+    render(view: "viewName", model: [book: theShining])
+  }
 }
